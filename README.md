@@ -1,4 +1,4 @@
-# labview2018-tutorial
+# labview2018-tutorial Author:Zhiqiang Yuan
 this repository tells how to use LabVIEW based on labview2018.
 
 Environment: LabVIEW2018 
