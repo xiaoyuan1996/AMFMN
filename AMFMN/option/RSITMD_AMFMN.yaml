@@ -1,0 +1,42 @@
+model:
+    multiscale:
+        multiscale_input_channel: 3
+        multiscale_output_channel: 1
+    cross_attention:
+        att_type: "soft_att"
+    seq2vec:
+        arch: skipthoughts
+        dir_st: /data
+        type: BayesianUniSkip
+        dropout: 0.25
+        fixed_emb: False
+    embed:
+        embed_dim: 512
+    name: AMFMN
+dataset:
+    datatype: rsitmd
+    data_split:
+    data_path: 'data/rsitmd_precomp/'
+    image_path: '/data/rsitmd_images/'
+    vocab_path: 'vocab/rsitmd_splits_vocab.json'
+    batch_size: 100
+    batch_size_val: 70
+    workers: 3
+optim:
+    epochs: 70
+    lr: 0.0002
+    lr_decay_param: 0.7
+    lr_update_epoch: 20
+    grad_clip: 0
+    max_violation: 0
+    margin: 0.2
+    resume: False
+logs:
+    eval_step: 1
+    print_freq: 10
+    ckpt_save_path: "checkpoint/"
+    logger_name: 'logs/'
+k_fold:
+    experiment_name: 'rsitmd_aba_mv'
+    nums: 5
+    current_num: 0
