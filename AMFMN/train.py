@@ -25,7 +25,7 @@ from vocab import deserialize_vocab
 def parser_options():
     # Hyper Parameters setting
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path_opt', default='option/SYDNEY_AMFMN.yaml', type=str,
+    parser.add_argument('--path_opt', default='option/RSITMD_AMFMN.yaml', type=str,
                         help='path to a yaml options file')
     # parser.add_argument('--text_sim_path', default='data/ucm_precomp/train_caps.npy', type=str,help='path to t2t sim matrix')
     opt = parser.parse_args()

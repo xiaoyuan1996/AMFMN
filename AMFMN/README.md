@@ -35,10 +35,6 @@ File Structure:
         -- images             # rsicd images here
     -- rsitmd_precomp
         ...
-    -- sydney_precomp
-        ...
-    -- ucm_precomp
-        ...
 
 -- exec         # .sh file
 
@@ -76,11 +72,8 @@ Note:
 2. We prepare some used file::
   (1)[seq2vec (Password:NIST)](https://pan.baidu.com/s/1jz61ZYs8NZflhU_Mm4PbaQ)
   (2)[RSICD images (Password:NIST)](https://pan.baidu.com/s/1lH5m047P9m2IvoZMPsoDsQ)
-  (3)[UCM images (Password:NIST)](https://pan.baidu.com/s/1K7vfmx2TfMFyViqTyJQSgg)
-  (4)[SYDNEY images (Password:NIST)](https://pan.baidu.com/s/1C-P674uYh7-XKUDpcJL2aA)
+3. We found that the split method of the UCM and Sydney datasets has a greater impact on performance due to their small size, so we no longer provide performance support for the above two datasets.
 ```
-
-
 
 ```bash
 Run: (We take the dataset RSITMD as an example)
