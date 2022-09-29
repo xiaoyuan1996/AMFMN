@@ -2,6 +2,7 @@
 
 
 ## **For better retrieval results, please refer to** [GaLR, TGRS 2022.](https://github.com/xiaoyuan1996/GaLR)
+## **For Semantic localization test, please refer to** [SeLo, TGRS 2022.](https://github.com/xiaoyuan1996/SemanticLocalizationMetrics)
 
 ##### Author: Zhiqiang Yuan 
 
