@@ -67,9 +67,3 @@ If you feel this code helpful or use this code or dataset, please cite it as
 ```
 Z. Yuan et al., "Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2021.3078451.
 ```
-
-<p align="center">
-  <a href="https://star-history.com/#xiaoyuan1996/AMFMN&Date">
-    <img src="https://api.star-history.com/svg?repos=xiaoyuan1996/AMFMN&type=Date" alt="Star History Chart">
-  </a>
-</p>
