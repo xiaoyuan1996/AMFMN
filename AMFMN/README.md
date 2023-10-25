@@ -70,7 +70,7 @@ File Structure:
 Note:
 1. In order to facilitate reproduction, we have provided processed annotations.
 2. We prepare some used file::
-  (1)[seq2vec (Password:NIST)](https://pan.baidu.com/s/1jz61ZYs8NZflhU_Mm4PbaQ)
+  (1)[seq2vec (Password:NIST)]([https://pan.baidu.com/s/1jz61ZYs8NZflhU_Mm4PbaQ](https://pan.baidu.com/s/1FOPldSGO6ctETiXMlPGC8g))
   (2)[RSICD images (Password:NIST)](https://pan.baidu.com/s/1lH5m047P9m2IvoZMPsoDsQ)
 3. We found that the split method of the UCM and Sydney datasets has a greater impact on performance due to their small size, so we no longer provide performance support for the above two datasets.
 ```
